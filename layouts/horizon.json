@@ -1,0 +1,140 @@
+{
+  "id": "horizon-root",
+  "type": "column",
+  "children": [
+    {
+      "id": "deck",
+      "type": "block",
+      "content": {
+        "mod": "horizon",
+        "props": {
+          "role": "deck"
+        }
+      },
+      "size": {
+        "px": 235
+      },
+      "min": 220,
+      "window_drag": true
+    },
+    {
+      "id": "spaces-bar",
+      "type": "block",
+      "content": {
+        "mod": "horizon",
+        "props": {
+          "role": "spaces-bar"
+        }
+      },
+      "size": {
+        "px": 46
+      }
+    },
+    {
+      "id": "work-row",
+      "type": "row",
+      "children": [
+        {
+          "id": "work",
+          "type": "block",
+          "content": {
+            "tab": "active",
+            "pane": {
+              "header": {
+                "content": {
+                  "mod": "horizon",
+                  "props": {
+                    "role": "pane-header"
+                  }
+                },
+                "height": 32
+              },
+              "border": {
+                "width": 1,
+                "color": "#6875a1"
+              },
+              "focus": {
+                "width": 2,
+                "color": "#6875a1"
+              },
+              "radius": 8,
+              "gap": 8,
+              "lone": true
+            }
+          },
+          "size": {
+            "weight": 1
+          },
+          "min": 320
+        },
+        {
+          "id": "subagents-rail",
+          "type": "block",
+          "content": {
+            "mod": "horizon",
+            "props": {
+              "role": "subagents"
+            }
+          },
+          "size": {
+            "px": 248
+          },
+          "min": 190,
+          "max": 380,
+          "hidden": true
+        },
+        {
+          "id": "panel",
+          "type": "column",
+          "children": [
+            {
+              "id": "panel-body",
+              "type": "stack",
+              "children": [
+                {
+                  "id": "files",
+                  "type": "block",
+                  "content": {
+                    "mod": "files"
+                  }
+                },
+                {
+                  "id": "changes",
+                  "type": "block",
+                  "content": {
+                    "mod": "changes"
+                  }
+                }
+              ],
+              "active": "files",
+              "size": {
+                "weight": 1
+              }
+            }
+          ],
+          "size": {
+            "weight": 1
+          },
+          "min": 280,
+          "hidden": true
+        }
+      ],
+      "size": {
+        "weight": 5
+      },
+      "background": "canvas",
+      "padding": 8,
+      "gap": 8
+    }
+  ],
+  "theme": "horizon",
+  "font": "JetBrains Mono",
+  "font_size": 12,
+  "ui_font": "Geist",
+  "terminal_padding": [
+    10,
+    12
+  ],
+  "titlebar": "none",
+  "preview": "layouts/horizon.svg"
+}

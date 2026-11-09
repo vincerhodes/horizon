@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="monospace">
+  <rect width="800" height="500" fill="#04040b"/>
+  <!-- Top command deck -->
+  <rect x="0" y="0" width="800" height="124" fill="#080915"/>
+  <rect x="0" y="0" width="800" height="1" fill="#29305c"/>
+  <rect x="0" y="123" width="800" height="1" fill="#29305c"/>
+  <text x="14" y="24" fill="#dbe4ff" font-size="13" font-weight="bold">HORIZON</text>
+  <rect x="232" y="10" width="86" height="18" rx="9" fill="#ff6b9d28" stroke="#ff6b9d"/>
+  <text x="244" y="23" fill="#ff9fbb" font-size="10">● NEEDS YOU</text>
+  <rect x="326" y="10" width="72" height="18" rx="9" fill="#7ea1ff28" stroke="#7ea1ff"/>
+  <text x="338" y="23" fill="#bab9ff" font-size="10">◐ WORKING</text>
+  <rect x="406" y="10" width="52" height="18" rx="9" fill="#59e58c28" stroke="#59e58c"/>
+  <text x="418" y="23" fill="#8affb8" font-size="10">✓ DONE</text>
+  <rect x="466" y="10" width="48" height="18" rx="9" fill="#171a36" stroke="#29305c"/>
+  <text x="478" y="23" fill="#8ea4e8" font-size="10">· IDLE</text>
+  <rect x="632" y="10" width="64" height="18" rx="7" fill="#101225" stroke="#29305c"/>
+  <text x="644" y="23" fill="#8ea4e8" font-size="10">? Help</text>
+  <rect x="702" y="10" width="88" height="18" rx="7" fill="#101225" stroke="#29305c"/>
+  <text x="712" y="23" fill="#8ea4e8" font-size="10">Motion: on</text>
+  <!-- Expanded space boxes (dimmed = not selected) -->
+  <g opacity="0.55">
+    <rect x="10" y="36" width="168" height="80" rx="8" fill="#04040b" stroke="#2b314d"/>
+    <rect x="10" y="36" width="168" height="28" rx="8" fill="#121424"/>
+    <circle cx="24" cy="50" r="4" fill="#ff6b9d"/>
+    <text x="34" y="54" fill="#8ea4e8" font-size="11" font-weight="bold">api-service</text>
+    <rect x="18" y="70" width="152" height="36" rx="7" fill="#101222" stroke="#2b314d"/>
+    <text x="26" y="86" fill="#8ea4e8" font-size="10">#1 claude — auth flow</text>
+    <rect x="120" y="78" width="46" height="14" rx="7" fill="#ff6b9d28" stroke="#ff6b9d"/>
+    <text x="126" y="88" fill="#ff9fbb" font-size="8">BLOCKED</text>
+  </g>
+  <g opacity="0.55">
+    <rect x="186" y="36" width="168" height="80" rx="8" fill="#04040b" stroke="#2b314d"/>
+    <rect x="186" y="36" width="168" height="28" rx="8" fill="#121424"/>
+    <circle cx="200" cy="50" r="4" fill="#59e58c"/>
+    <text x="210" y="54" fill="#8ea4e8" font-size="11" font-weight="bold">web-app</text>
+    <rect x="194" y="70" width="152" height="36" rx="7" fill="#101222" stroke="#2b314d"/>
+    <text x="202" y="86" fill="#8ea4e8" font-size="10">#2 kimi — deploy</text>
+    <rect x="296" y="78" width="46" height="14" rx="7" fill="#59e58c28" stroke="#59e58c"/>
+    <text x="306" y="88" fill="#8affb8" font-size="8">DONE</text>
+  </g>
+  <g opacity="0.55">
+    <rect x="362" y="36" width="168" height="80" rx="8" fill="#04040b" stroke="#2b314d"/>
+    <rect x="362" y="36" width="168" height="28" rx="8" fill="#121424"/>
+    <circle cx="376" cy="50" r="4" fill="#6875a1"/>
+    <text x="386" y="54" fill="#8ea4e8" font-size="11" font-weight="bold">mobile</text>
+    <rect x="370" y="70" width="152" height="36" rx="7" fill="#101222" stroke="#2b314d"/>
+    <text x="378" y="88" fill="#8ea4e8" font-size="10">Idle space</text>
+  </g>
+  <!-- Active space box (selected: full opacity, accent border) -->
+  <g>
+    <rect x="538" y="34" width="168" height="84" rx="8" fill="#080915" stroke="#657dce" stroke-width="2"/>
+    <rect x="538" y="34" width="168" height="28" rx="8" fill="#1c2242"/>
+    <circle cx="552" cy="48" r="4" fill="#7ea1ff"/>
+    <text x="562" y="52" fill="#dbe4ff" font-size="11" font-weight="bold">▸ core</text>
+    <rect x="546" y="68" width="152" height="36" rx="7" fill="#141830" stroke="#657dce"/>
+    <text x="554" y="84" fill="#dbe4ff" font-size="10">#1 argon — replan</text>
+    <rect x="650" y="76" width="44" height="14" rx="7" fill="#7ea1ff28" stroke="#7ea1ff"/>
+    <text x="658" y="86" fill="#bab9ff" font-size="8">WORKING</text>
+  </g>
+  <!-- OTHER SPACES -->
+  <rect x="714" y="36" width="76" height="80" rx="8" fill="#080915" stroke="#2b314d"/>
+  <rect x="714" y="36" width="76" height="24" rx="8" fill="#121424"/>
+  <text x="720" y="52" fill="#8ea4e8" font-size="8" font-weight="bold">OTHER SPACES</text>
+  <rect x="720" y="66" width="64" height="10" rx="5" fill="#101222" stroke="#2b314d"/>
+  <text x="726" y="74" fill="#8ea4e8" font-size="7">docs</text>
+  <rect x="720" y="80" width="64" height="10" rx="5" fill="#101222" stroke="#2b314d"/>
+  <text x="726" y="88" fill="#8ea4e8" font-size="7">infra</text>
+  <rect x="720" y="94" width="64" height="10" rx="5" fill="#101222" stroke="#2b314d"/>
+  <text x="726" y="102" fill="#8ea4e8" font-size="7">cli</text>
+  <text x="720" y="113" fill="#6875a1" font-size="7">+ sandbox…</text>
+  <!-- Spaces & tabs bar -->
+  <rect x="0" y="124" width="800" height="46" fill="#080915"/>
+  <rect x="0" y="169" width="800" height="1" fill="#29305c"/>
+  <rect x="10" y="131" width="100" height="32" rx="7" fill="#262b54" stroke="#7ea1ff"/>
+  <circle cx="24" cy="147" r="4" fill="#7ea1ff"/>
+  <text x="34" y="151" fill="#dbe4ff" font-size="11">▸ core</text>
+  <rect x="118" y="131" width="26" height="32" rx="7" fill="#101225" stroke="#29305c"/>
+  <text x="126" y="151" fill="#8ea4e8" font-size="12">+</text>
+  <rect x="154" y="140" width="1" height="22" fill="#29305c"/>
+  <rect x="166" y="131" width="130" height="32" rx="7" fill="#171a36" stroke="#29305c"/>
+  <text x="178" y="151" fill="#dbe4ff" font-size="11">1 api · zsh</text>
+  <text x="282" y="151" fill="#6875a1" font-size="10">✎ ✕</text>
+  <rect x="304" y="131" width="110" height="32" rx="7" fill="#101225" stroke="#29305c"/>
+  <text x="316" y="151" fill="#8ea4e8" font-size="11">2 tests</text>
+  <rect x="422" y="131" width="110" height="32" rx="7" fill="#101225" stroke="#29305c"/>
+  <text x="434" y="151" fill="#8ea4e8" font-size="11">3 scratch</text>
+  <!-- Work row: main terminal + SUBAGENTS rail -->
+  <rect x="8" y="178" width="500" height="314" rx="8" fill="#05050f" stroke="#7ea1ff" stroke-width="2"/>
+  <rect x="8" y="178" width="500" height="32" rx="8" fill="#080915"/>
+  <text x="20" y="199" fill="#dbe4ff" font-size="11">api · ❯ zsh — ~/dev/core ⎇ main</text>
+  <text x="24" y="254" fill="#657dce" font-size="12">$ herdr agent list</text>
+  <text x="24" y="274" fill="#8ea4e8" font-size="12">t1  working  spec-19 polish</text>
+  <text x="24" y="294" fill="#8ea4e8" font-size="12">t3  done     tests green</text>
+  <text x="24" y="314" fill="#8ea4e8" font-size="12">t7  blocked  approval gate</text>
+  <rect x="516" y="178" width="132" height="314" rx="8" fill="#05050f" stroke="#29305c"/>
+  <rect x="516" y="178" width="132" height="32" rx="8" fill="#080915"/>
+  <text x="524" y="199" fill="#8ea4e8" font-size="10" font-weight="bold">SUBAGENTS · core</text>
+  <rect x="524" y="218" width="116" height="24" rx="6" fill="#101225" stroke="#7ea1ff"/>
+  <circle cx="534" cy="230" r="3" fill="#7ea1ff"/>
+  <text x="542" y="234" fill="#dbe4ff" font-size="9">wrk-t1 spec-19</text>
+  <rect x="524" y="248" width="116" height="24" rx="6" fill="#101225" stroke="#ff6b9d"/>
+  <circle cx="534" cy="260" r="3" fill="#ff6b9d"/>
+  <text x="542" y="264" fill="#dbe4ff" font-size="9">wrk-t7 gate</text>
+  <rect x="656" y="178" width="136" height="314" rx="8" fill="#05050f" stroke="#29305c"/>
+  <rect x="656" y="178" width="136" height="32" rx="8" fill="#080915"/>
+  <text x="664" y="199" fill="#8ea4e8" font-size="10" font-weight="bold">kimi — core</text>
+  <text x="668" y="254" fill="#657dce" font-size="12">◐ summarising…</text>
+</svg>
